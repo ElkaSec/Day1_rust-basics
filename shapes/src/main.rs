@@ -25,7 +25,7 @@ impl Rect {
 }
 
 fn main() {
-    let mut rect1 = Rect::new(44.0, 88.0);
+    let mut rect1 = Rect::new(4.0, 4.0);
     let area = rect1.area();
     println!("{area}");
     rect1.grow(10.0);

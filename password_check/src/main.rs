@@ -22,7 +22,7 @@ fn main() {
     let mut schar: bool = false;
 
     for c in password.chars() {
-        if !schar && c.is_alphanumeric() {
+        if !schar && !c.is_alphanumeric() {
             schar = true;
         } else if !min && c.is_ascii_lowercase() {
             min = true;
